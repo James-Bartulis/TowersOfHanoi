@@ -15,8 +15,8 @@
 1. Download zip to Downloads
 2. Unzip TowersOfHanoi-master
     * right-click & extract all in the same location
-3. [Stuff needed for gcc/g++](https://iweb.dl.sourceforge.net/project/tdm-gcc/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe) run & install
-    * Video on how to install the compilers [Compiler Installation Tutorial](www.youtube.com/vhgww2hvyq9jpyp)
+3. [Stuff needed for gcc/g++](https://iweb.dl.sourceforge.net/project/tdm-gcc/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe){:target="_blank"} run & install
+    * Video on how to install the compilers [Compiler Installation Tutorial](www.youtube.com/vhgww2hvyq9jpyp){:target="_blank"}
     * If you have installed them once, you don't need to again
 4. Press together: ```Win + R```
 5. type & enter: ```cmd```
