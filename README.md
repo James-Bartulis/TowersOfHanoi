@@ -12,14 +12,20 @@
 [What is Towers of Hanoi?](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 
 # Install for windows
-1. Download zip to Desktop
-2. [Stuff needed for gcc/g++](https://iweb.dl.sourceforge.net/project/tdm-gcc/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe) run & install
-3. Press together: ```Win + R```
-4. type & enter: ```cmd```
-5. type & enter: ```cd Desktop``` to **c**hange **d**irectory to your Desktop
-6. type & enter: ```cd TowersOfHanoi-master```
-7. type & enter: ```g++ main.cpp -o run```
-8. type & enter: ```run```
+1. Download zip to Downloads
+2. Unzip TowersOfHanoi-master
+    * right-click & extract all in the same location
+3. [Stuff needed for gcc/g++](https://iweb.dl.sourceforge.net/project/tdm-gcc/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe) run & install
+    * Video on how to install the compilers [Compiler Installation Tutorial](www.youtube.com/vhgww2hvyq9jpyp)
+    * If you have installed them once, you don't need to again
+4. Press together: ```Win + R```
+5. type & enter: ```cmd```
+6. type & enter: ```cd Downloads``` to **c**hange **d**irectory to your Downloads
+7. type & enter: ```cd TowersOfHanoi-master```
+8. Once more type & enter: ```cd Tetris-master```
+9. type & enter: ```g++ main.cpp -o run```
+10. Read ```How to play``` before playing
+11. type & enter: ```run```
 
 # How to play  
 1. **Setup**
