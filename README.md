@@ -9,11 +9,11 @@
 ![Example 8](Ex8.png)
 
 # FAQ
-[What is Towers of Hanoi?](https://en.wikipedia.org/wiki/Tower_of_Hanoi)(Ctrl + click) the link
-Does this work on Linux?
-    * Sadly no, due to libraries used in the code.
-Does this work on Windows
-    * Yes, below instructions are provided.
+* [What is Towers of Hanoi?](https://en.wikipedia.org/wiki/Tower_of_Hanoi)(Ctrl + click) the link
+* Does this work on Linux?
+    - Sadly no, due to libraries used in the code.
+* Does this work on Windows
+    - Yes, below instructions are provided.
 
 # Install for windows
 1. Download zip to Downloads
