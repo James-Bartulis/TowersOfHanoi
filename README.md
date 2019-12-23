@@ -23,7 +23,7 @@
 5. type & enter: ```cmd```
 6. type & enter: ```cd Downloads``` to **c**hange **d**irectory to your Downloads
 7. type & enter: ```cd TowersOfHanoi-master```
-8. Once more type & enter: ```cd Tetris-master```
+8. Once more type & enter: ```cd TowersOfHanoi-master```
 9. type & enter: ```g++ main.cpp -o run```
 10. Read ```How to play``` before playing
 11. type & enter: ```run```
