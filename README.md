@@ -17,7 +17,7 @@
 3. Press together: ```Win + R```
 4. type & enter: ```cmd```
 5. type & enter: ```cd Desktop``` to **c**hange **d**irectory to your Desktop
-6. type & enter: ```cd TowersOfHanoi```
+6. type & enter: ```cd TowersOfHanoi-master```
 7. type & enter: ```g++ main.cpp -o run```
 8. type & enter: ```run```
 
