@@ -4,6 +4,18 @@
 
 using namespace std;
 
+void SetFontSize(int size){
+	CONSOLE_FONT_INFOEX cfi;
+	cfi.cbSize = sizeof(cfi);
+	cfi.nFont = 0;
+	cfi.dwFontSize.X = 0;                   // Width of each character in the font
+	cfi.dwFontSize.Y = size;                  // Height
+	cfi.FontFamily = FF_DONTCARE;
+	cfi.FontWeight = FW_NORMAL;
+	std::wcscpy(cfi.FaceName, L"Consolas"); // Choose your font
+	SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
+}
+
 bool isNumber(const char* input){
 	while(*input)
 		if(!isdigit(*input))
@@ -35,8 +47,10 @@ int main()
 				break;
 		} else continue;
 	}
+	SetFontSize(1000/(pieces*pegs));
 
 	TowersofHanoi *test = new TowersofHanoi(pieces, pegs);
 
 	test->PlayGame();
+	SetFontSize(16);
 }
