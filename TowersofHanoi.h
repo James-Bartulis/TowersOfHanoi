@@ -41,7 +41,7 @@ public:
 
 	void Input()
 	{
-		char input = _getch();
+		char input = getch();
 		char input2;
 		switch(input)
 		{
@@ -50,7 +50,7 @@ public:
 				break;
 			case char(49)...char(57):/// it works!! /// accepts 1-9 
 				cout << input << " to _" << endl;
-				input2 = _getch(); /// char(49) == 1
+				input2 = getch(); /// char(49) == 1
 				if(input > numOfPegs || input2 > numOfPegs) break; // do nothing
 				else if(input != input2 && (int)input2 >= 49 && (int)input2 <= 57) /// 48 is offset
 					pegs[(int)input - 48 - 1]->moveDiscFromPegToPeg(pegs[(int)input2 - 48 - 1]);
